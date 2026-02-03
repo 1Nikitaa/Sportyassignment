@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-const repoName = 'assignmentSporty'; 
-const basePath = process.env.GITHUB_PAGES ? `/${repoName}/` : '/';
+
+// Set the base path for GitHub Pages deployment
+const basePath = '/Sportyassignment/';
 
 export default defineConfig({
   base: basePath,
